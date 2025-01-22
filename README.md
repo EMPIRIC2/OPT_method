@@ -1,0 +1,1 @@
+This codes and data is derived from the paper "An Optimal Path Threshold Method for Rigorously Identifying Extreme Climate Events" published in Environmental Research Letters. The code and data provide examples of the 2D and 3D OPT methods.
