@@ -53,7 +53,7 @@ print("Maxium path:", max_path)
 
 
 ##Air Heatwave
-metrix1=np.load("air_heatwave_matrix.npy")
+metrix1=np.load("air_heatwave_matrix")
 
 metrix1=np.flip(np.flip(metrix1,0),1)
 
@@ -62,7 +62,7 @@ print("The summer of the maxium path:", max_sum)
 print("Maxium path:", max_path)
 
 ##Lake Heatwave
-metrix2=np.load("lakehw.npy")
+metrix2=np.load("lake_heatwave_matrix.npy")
 
 metrix2=np.flip(np.flip(metrix2,0),1)
 max_sum, max_path = max_path_sum(metrix2)
